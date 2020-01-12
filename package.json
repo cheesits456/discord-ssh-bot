@@ -1,0 +1,22 @@
+{
+  "name": "discord-ssh-bot",
+  "version": "1.0.0",
+  "description": "Simple bot for using shell commands within Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheesits456/discord-ssh-bot.git"
+  },
+  "author": "cheesits456",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cheesits456/discord-ssh-bot/issues"
+  },
+  "homepage": "https://github.com/cheesits456/discord-ssh-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
