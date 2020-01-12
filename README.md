@@ -6,7 +6,7 @@ _Only required for first run_
 - Install NodeJS if it isn't already
 - Fill in `config.json` with the correct information. If you don't know what something in that file means, you shouldn't be using this bot.
 - Open a terminal in this directory
-- Run `npm i` to install dependencies (only required for first run)
+- Run `npm i` to install dependencies
 
 ## Usage
 - Open a terminal in this directory
