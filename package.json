@@ -1,7 +1,7 @@
 {
 	"name": "discord-ssh-bot",
 	"version": "1.2.0",
-	"description": "Simple bot for using shell commands within Discord",
+	"description": " A node.js Discord bot for using shell commands remotely through Discord",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
