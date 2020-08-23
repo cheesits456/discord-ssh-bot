@@ -19,8 +19,8 @@
 		"url": "https://github.com/cheesits456/discord-ssh-bot/issues"
 	},
 	"funding": {
-		"type": "individual",
-		"url": "https://donate.haileybot.com"
+		"type": "github",
+		"url": "https://github.com/sponsors/cheesits456"
 	},
 	"homepage": "https://github.com/cheesits456/discord-ssh-bot#readme",
 	"keywords": [
@@ -30,5 +30,6 @@
 		"commands",
 		"shell",
 		"bash"
-	]
+	],
+	"os": [ "!win32" ]
 }
