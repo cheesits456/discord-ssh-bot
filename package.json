@@ -1,15 +1,20 @@
 {
 	"name": "discord-ssh-bot",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": " A node.js Discord bot for using shell commands remotely through Discord",
 	"main": "index.js",
 	"scripts": {
+		"start": "node ./index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "cheesits456",
 	"license": "GPL-3.0",
 	"dependencies": {
-		"discord.js": "^12.2.0"
+		"discord.js": "^12.2.0",
+		"semver": "^7.3.2"
+	},
+	"engines": {
+		"node": ">=14.0.0"
 	},
 	"repository": {
 		"type": "git",
@@ -31,5 +36,7 @@
 		"shell",
 		"bash"
 	],
-	"os": [ "!win32" ]
+	"os": [
+		"!win32"
+	]
 }
