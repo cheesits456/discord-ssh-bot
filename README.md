@@ -7,6 +7,10 @@ This bot does not use an actual SSH connection. It's named like this because it 
 _Only required for first run_
 - Install NodeJS if it isn't already
 - Fill in `config.json` with the correct information. If you don't know what something in that file means, you shouldn't be using this bot.
+    Or if you want to learn about it:
+        - you have to [create bot](https://github.com/cheesits456/discord-ssh-bot)
+        - copy channel id: ![alt text](https://i.imgur.com/KiRl2ds.png)
+        - copy user id: ![alt text](https://i.imgur.com/ZRi6r94.png)
 - Open a terminal in this directory
 - Run `npm i` to install dependencies
 
