@@ -1,6 +1,6 @@
 {
 	"name": "discord-ssh-bot",
-	"version": "1.2.1",
+	"version": "1.3.0",
 	"description": " A node.js Discord bot for using shell commands remotely through Discord",
 	"main": "index.js",
 	"scripts": {
