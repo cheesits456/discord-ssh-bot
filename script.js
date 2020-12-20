@@ -17,7 +17,7 @@ const fmt = {
 async function exec(input, options) {
 	if (options?.terminal)
 		await (await client.config.channel.fetchWebhooks()).first().send(input, {
-			username: client.config.channel.guild.members.cache.get(client.config.owner.id).nickname || client.config.owner.username,
+			username: client.config.channel.guild.members.cache.get(client.config.owner.id)?.nickname || client.config.owner.username,
 			avatarURL: client.config.owner.displayAvatarURL({ format: "png" }),
 		});
 	let output = "";
@@ -55,8 +55,8 @@ client.on("ready", async () => {
 		process.exit();
 	}
 
-	client.config.owner = client.users.cache.get(client.config.owner);
-	if (!client.config.channel) {
+	client.config.owner = await client.users.fetch(client.config.owner);
+	if (!client.config.owner) {
 		console.error("Invalid user ID set for 'owner' in config.json");
 		process.exit();
 	}
