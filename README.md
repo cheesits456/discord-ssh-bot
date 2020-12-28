@@ -1,4 +1,6 @@
 # Discord SSH Bot
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcheesits456%2Fdiscord-ssh-bot.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcheesits456%2Fdiscord-ssh-bot?ref=badge_shield)
+
 This is a simple bot for using shell commands within Discord.
 
 > This bot does not use an actual SSH connection; it's named as such because it provides similar functionality to SSH, in that you can romotely execute commands on your computer from different devices and locations.
@@ -19,3 +21,7 @@ _Only required for first run_
 <!-- Link anchors -->
 
 [bot-creation-howto]: https://discordjs.guide/preparations/setting-up-a-bot-application.html 'Setting up a bot application'
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcheesits456%2Fdiscord-ssh-bot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcheesits456%2Fdiscord-ssh-bot?ref=badge_large)
