@@ -11,7 +11,7 @@
 	"license": "GPL-3.0",
 	"dependencies": {
 		"discord.js": "^12.5.3",
-		"semver": "^7.3.5"
+		"semver": "^7.3.6"
 	},
 	"engines": {
 		"node": ">=14.0.0"
