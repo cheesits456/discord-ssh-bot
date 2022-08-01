@@ -10,7 +10,7 @@
 	"author": "cheesits456",
 	"license": "GPL-3.0",
 	"dependencies": {
-		"discord.js": "^12.5.3",
+		"discord.js": "^14.1.2",
 		"semver": "^7.3.5"
 	},
 	"engines": {
